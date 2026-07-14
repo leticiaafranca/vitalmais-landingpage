@@ -8,7 +8,10 @@ import vitalmaisLogo from "./img/vitalmais-logo.png";
 function App() {
   return (
     <Router>
-      <SiteHeader logoSrc={vitalmaisLogo} brandName="Centro Médico Vital Mais" />
+      <SiteHeader
+        logoSrc={vitalmaisLogo}
+        brandName={<>Centro Médico <br className="mc-brand__nameBreak" />Vital Mais</>}
+      />
       <ScrollToTop />
       <Switch>
         <Route exact path="/" component={MedClinicPage} />
