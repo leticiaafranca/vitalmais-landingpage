@@ -1,8 +1,8 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, within } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders Centro Médico VitalMais header', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const header = screen.getByRole('banner');
+  expect(within(header).getByRole('heading', { name: /Centro Médico VitalMais/i, level: 2 })).toBeInTheDocument();
 });
