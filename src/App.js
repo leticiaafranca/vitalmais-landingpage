@@ -10,7 +10,7 @@ function App() {
     <Router>
       <SiteHeader
         logoSrc={vitalmaisLogo}
-        brandName={<>Centro Médico <br className="mc-brand__nameBreak" />Vital Mais</>}
+        brandName={<>Centro Médico <br className="mc-brand__nameBreak" />VitalMais</>}
       />
       <ScrollToTop />
       <Switch>
