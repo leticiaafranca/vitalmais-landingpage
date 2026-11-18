@@ -6,7 +6,7 @@ export default function HeroSection({ id = 'inicio' }) {
       <div className="mc-container mc-hero__grid">
         <div className="mc-hero__content">
           <span className="mc-eyebrow"><Icon name="plus" /> Centro Médico VitalMais · Fortaleza</span>
-          <h1 className="mc-hero__title">Mais cuidado.<br />Mais perto<br />de você</h1>
+          <h1 className="mc-hero__title">Cuidar de você<br />faz parte da nossa história.</h1>
           <p className="mc-hero__subtitle">Consultas, exames e acompanhamento em um só lugar, no Centro de Fortaleza. Um espaço para cuidar da sua saúde com atenção e acolhimento.</p>
           <div className="mc-hero__buttons">
             <a className="mc-btn mc-btn--primary" href="#servicos">Conheça nossos serviços <Icon name="right" /></a>
